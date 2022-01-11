@@ -34,7 +34,8 @@ ul {
 }
 #navbar img {
 	width: 45px;
-	padding: 5px 0
+	padding: 5px 0;
+	cursor: pointer
 }
 #navbar a {
 	padding: 3px
@@ -84,12 +85,12 @@ h1 {
 	padding: 4px 11px;
 	line-height: 40px
 }
-.cat a:hover, a:focus {
+#header a:hover, a:focus {
 	text-decoration: none;
 	color: white;
 	background-color: #b13933
 }
-.cat a.active {
+#header a.active {
 	background: #b13933;
 	border: 1px solid #b13933;
 	color: white
@@ -144,6 +145,19 @@ hr {
 	font-size: 0
 }
 .imgcontainer img {
+	cursor: pointer;
+	border: 3px solid white;
+	width: 45vw;
+	height: 49vw;
+	object-fit: cover;
+}
+.vidcontainer {
+	margin: 0 12px 4px;
+	text-align: center;
+	font-size: 0
+}
+.vidcontainer img {
+	cursor: pointer;
 	border: 3px solid white;
 	width: 45vw;
 	height: 49vw;
@@ -164,10 +178,10 @@ hr {
 }
 .modal-content {
 	background-color: #fefefe;
-	margin: 10% auto;
+	margin: 6% auto;
 	border: 1px solid #888;
 	width: 90%;
-	margin-bottom: 60px
+	margin-bottom: 70px
 }
 .close {
 	color: #aaa;
@@ -188,6 +202,9 @@ hr {
 #modal-info img {
 	width: 100%;
 }
+#modal-info video {
+	width: 100%
+}
 #modal-info p {
 	font-size: 14px;
 	line-height: 15px;
@@ -204,7 +221,7 @@ hr {
 
 #about {
 	flex-direction: column;
-	margin: -20px 0 58px
+	margin: -20px 0 70px
 }
 h3 {
 	font-family: canada-type-gibson,sans-serif;
@@ -231,7 +248,8 @@ h3 {
 #profile {
 	display: flex;
 	justify-content: center;
-	height: 295px
+	height: 295px;
+	position: relative
 }
 #about img {
 	width: 240px;
@@ -240,7 +258,8 @@ h3 {
 	object-position: 50% -4px;
 	background-color: #b13933;
 	padding: 26px;
-	margin-right: -5%
+	margin-right: -5%;
+	z-index: -5
 }
 p {
 	font-family: open-sans,sans-serif;
@@ -251,6 +270,24 @@ p {
 	font-size: 13px;
 	margin: 3px 18px 8px 18px;
 	text-align: justify
+}
+#about p a:focus, a:hover {
+	text-decoration: underline;
+	color: #007bff;
+	background-color: transparent
+}
+
+#aboutpage {
+	margin: 25px 0
+}
+#aboutpage #profile {
+	flex-direction: column-reverse;
+	align-items: center;
+	height: 345px
+}
+#aboutpage h3 {
+	text-decoration: underline;
+	position: unset
 }
 
 /* DESKTOP */
@@ -303,15 +340,18 @@ p {
 	#header #desktopmedia {
 		margin-left: 8px;
 	}
-	.cat a {
+	#header #desktopmedia a:focus {
+		background-color: transparent
+	}
+	#header a {
 		color: white;
 		border-color: white
 	}
-	.cat a:hover, a:focus {
+	#header ol a:hover, a:focus {
 		color: #b13933;
 		background-color: white
 	}
-	.cat a.active {
+	#header a.active {
 		background: white;
 		border-color: white;
 		color: #b13933
@@ -342,12 +382,15 @@ p {
 		width: 188px;
 		height: 198px
 	}
+	.vidcontainer img {
+		width: 188px;
+		height: 198px
+	}
 	
 	.modal-content {
 	margin: 5% auto;
 	width: 378px;
-	margin-right: 10%
-}
+	}
 	
 	#about {
 		margin-left: 140px;
@@ -367,20 +410,28 @@ p {
 		background-color: white;
 		text-decoration: underline;
 	}
-	#about a:hover, a:focus {
+	#aboutme a:hover {
 		color: #b13933;
 		background-color: white;
+		text-decoration: underline
 	}
-	#about h3 {
-		position: fixed;
-		top: 216px;
-		left: 35%;
+	#aboutpage {
 		margin: 0
 	}
+	#aboutpage #profile {
+		height: 295px
+	}
+	#about h3 {
+		position: absolute;
+		top: 166px;
+		left: 20%;
+		margin: 0;
+		text-decoration: none
+	}
 	#about hr {
-		position: fixed;
-		top: 255px;
-		left: 34%;
+		position: absolute;
+		top: 200px;
+		left: 19%;
 		margin: 0
 	}
 	#about p {
@@ -390,16 +441,25 @@ p {
 		margin-right: -8%
 	}
 }
-/*
-@media only screen and (max-height: 590px) {
-	#header ol {
-		margin-top: 10%
+
+@media only screen and (min-width: 690px) {
+	.modal-content {
+		margin: 5% auto;
+		width: 378px;
+		margin-left: 36%
 	}
-	#aboutme {
-		margin-top: 10%
+	#about h3 {
+		left: 25%
 	}
-	#header #desktopmedia {
-		margin-top: 10%
+	#about hr {
+		left: 24%
 	}
 }
-*/
+@media only screen and (min-width: 900px) {
+	#about h3 {
+		left: 34%
+	}
+	#about hr {
+		left: 33%
+	}
+}
