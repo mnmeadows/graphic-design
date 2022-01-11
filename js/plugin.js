@@ -230,7 +230,6 @@ function handleVideoElements(dataObjs, container) {
 				modalVideo.muted = true;
 				modalVideo.playsinline = true;
 				modalVideo.disableRemotePlayback = true;
-				modalVideo.controls = true
 
 				var source = document.createElement('source');
 				source.src = 'video/' + clickedInfo.filename[j];
