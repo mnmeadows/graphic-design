@@ -79,22 +79,22 @@ var logos = [
 var video = [
 	new VideoDataObj ([
 		[],
-		'<iframe width="100%" height="245px" src="https://www.youtube.com/embed/OLMdYvAF7wU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog about a trip I took across Europe with my band. Edited in Adobe Premiere Elements.',
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/OLMdYvAF7wU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog about a trip I took across Europe with my band. Edited in Adobe Premiere Elements.',
 		'poster-europe.png'
 	]),
 	new VideoDataObj ([
 		[],
-		'<iframe width="100%" height="245px" src="https://www.youtube.com/embed/tTF4YwCar9A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog highlighting a year in a theatre company. Edited in Adobe Premiere Elements.',
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/tTF4YwCar9A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog highlighting a year in a theatre company. Edited in Adobe Premiere Elements.',
 		'poster-theatre.png'
 	]),
 	new VideoDataObj ([
 		[],
-		'<iframe width="100%" height="245px" src="https://www.youtube.com/embed/PPFnHiPkkoY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A mock video trailer announcing the shows for a theatre\'s upcoming season. Edited in Adobe Premiere Pro.',
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/PPFnHiPkkoY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A mock video trailer announcing the shows for a theatre\'s upcoming season. Edited in Adobe Premiere Pro.',
 		'poster-season.png'
 	]),
 	new VideoDataObj ([
 		[],
-		'<iframe width="100%" height="245px" src="https://www.youtube.com/embed/LkZAJHxx1Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>My project for National History Day about Louis Armstrong. Edited in Adobe Premiere Elements.',
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/LkZAJHxx1Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>My project for National History Day about Louis Armstrong. Edited in Adobe Premiere Elements.',
 		'poster-history.png'
 	]),
 ];
