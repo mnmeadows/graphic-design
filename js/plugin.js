@@ -65,6 +65,18 @@ var webdesign = [
 		['photowebsite.png', 'photos.png'],
 		'Photography portfolio website. Built with Adobe Portfolio. <a href="https://photos.marissameadows.com/">photos.marissameadows.com</a>'
 	]),
+	new ImageDataObj ([
+		['musicwebsite.png'],
+		'A website to showcase all my piano competitions and experimenting with parallax effects when scrolling. Built with Webflow. <a href="https://marissa-music.webflow.io">marissa-music.webflow.io</a>'
+	]),
+	new ImageDataObj ([
+		['travelweb-1.png', 'travelweb-2.png', 'travelweb-3.png'],
+		'Travel blog website. Built with Wordpress. <a href="http://marissa.not-pc.com">marissa.not-pc.com</a>'
+	]),
+	new ImageDataObj ([
+		['artwebsite.png'],
+		'Art portfolio website. Responsive, built from scratch with HTML and CSS with JavaScript filtering. <a href="https://art.marissameadows.com">art.marissameadows.com</a>'
+	]),
 ];
 var logos = [
 	new ImageDataObj ([
@@ -99,6 +111,36 @@ var video = [
 	]),
 ];
 var animations = [
+	new VideoDataObj ([
+		[],
+		'School project to make a title sequence for a movie. Finishing up some final details. Designed and animated in Adobe Illustrator & Adobe After Effects.',
+		'titlesequence.png'
+	]),
+	new VideoDataObj ([
+		['bump.mp4', 'mortise.mp4', 'snipe.mp4'],
+		'TV branding examples for school project: a bump, mortise, & snipe. Animated in Adobe After Effects.',
+		'bump.png'
+	]),
+	new VideoDataObj ([
+		[],
+		'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/iXAAsXw0HkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>School project to use 3D parallax effect with layers from Illustrator. Animated in Adobe After Effects.',
+		'parallax.png'
+	]),
+	new VideoDataObj ([
+		['stretchsquash.mp4', 'arc.mp4', 'followthrough.mp4', 'anticipation.mp4'],
+		'School project demonstrating the Basic Principles of Motion Graphics. Animated in Adobe After Effects.',
+		'motionbasics.png'
+	]),
+	new VideoDataObj ([
+		[],
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/OhzN4CUTFyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>School project to make an animated commercial with a puppet. Animated in Adobe Character Animator & Adobe After Effects.',
+		'character.png'
+	]),
+	new VideoDataObj ([
+		[],
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/pETVTDYEAX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>School project to make an animated 20 second autobiography. Animated in Adobe After Effects.',
+		'autobiography.png'
+	]),
 	new VideoDataObj ([
 		['Gallery-mobile.mp4'],
 		'Glowing neon sign. Designed and animated in Adobe After Effects.',
