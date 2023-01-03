@@ -16,6 +16,18 @@ var products = [
 		'An editorial for AR glasses I designed for class. I also took and edited all the pictures. Designed in Adobe Indesign.'
 	]),
 	new ImageDataObj ([
+		['StudyabroadTV.png', 'StudyabroadPoster.png'],
+		'Promotional posters for a study abroad trip, for both print and tv. Designed in Adobe Indesign.'
+	]),
+	new ImageDataObj ([
+		['RV-outside.JPG', 'RVoutside-final.png'],
+		'Sticker decal commissioned for the outside of an RV. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
+		['RV-inside.JPG', 'RVinside-final.png'],
+		'Sticker decal commissioned for the inside of an RV. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['stonesposter.png'],
 		'Rolling Stones concert poster designed for class. Designed in Adobe Photoshop & Indesign.'
 	]),
@@ -80,6 +92,10 @@ var webdesign = [
 ];
 var logos = [
 	new ImageDataObj ([
+		['Meadows-Logo.png', 'Meadows-Brand.png', 'Meadows-moodboard.png', 'Meadows-process.png'],
+		'Logo for my graphic design work, including the moodboard and different iterations it went through throughout the process. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['peakproperties.png'],
 		'Logo for a real estate company in Colorado Springs. Designed in Adobe Illustrator.'
 	]),
@@ -89,6 +105,16 @@ var logos = [
 	]),
 ];
 var video = [
+	new VideoDataObj ([
+		[],
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/nAMVmIxpPkA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A promotional video for a Root Beer Kegger event on campus, using pictures that I also took. Edited in Adobe Premiere Pro.',
+		'poster-RBK.jpg'
+	]),
+	new VideoDataObj ([
+		[],
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/JtD9KW6zDeU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog for a day in the life of a student studying abroad, commissioned by USAC, the program I went abroad with. Edited in Adobe Premiere Pro.',
+		'poster-dayinlife.png'
+	]),
 	new VideoDataObj ([
 		[],
 		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/OLMdYvAF7wU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-flex flex-fill"></iframe><br>A vlog about a trip I took across Europe with my band. Edited in Adobe Premiere Elements.',
@@ -113,7 +139,7 @@ var video = [
 var animations = [
 	new VideoDataObj ([
 		[],
-		'School project to make a title sequence for a movie. Finishing up some final details. Designed and animated in Adobe Illustrator & Adobe After Effects.',
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/lripbvTSX5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>School project to make a title sequence for a movie. Finishing up some final details. Designed and animated in Adobe Illustrator & Adobe After Effects.',
 		'titlesequence.png'
 	]),
 	new VideoDataObj ([
@@ -164,16 +190,16 @@ var animations = [
 ];
 var art = [
 	new ImageDataObj ([
+		['art15.jpg'],
+		'Piano drawn in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['art1.jpeg'],
 		'Rose drawn on Procreate.'
 	]),
 	new ImageDataObj ([
 		['art2.jpeg'],
 		'Woman drawn on Procreate.'
-	]),
-	new ImageDataObj ([
-		['art3.jpeg'],
-		'Wallpaper drawn on Procreate.'
 	]),
 	new ImageDataObj ([
 		['art4.png'],
@@ -186,10 +212,6 @@ var art = [
 	new ImageDataObj ([
 		['art6.png'],
 		'Moon over water drawn on Procreate.'
-	]),
-	new ImageDataObj ([
-		['art7.png'],
-		'Train in the mountains drawn on Procreate.'
 	]),
 	new ImageDataObj ([
 		['art9.jpeg'],
