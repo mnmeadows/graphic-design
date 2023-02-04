@@ -12,12 +12,24 @@ function VideoDataObj (options) {
 }
 var products = [
 	new ImageDataObj ([
-		['editorial-design1.jpg', 'editorial-design2.jpg'],
-		'An editorial for AR glasses I designed for class. I also took and edited all the pictures. Designed in Adobe Indesign.'
+		['AlbumMockup.png', 'AlbumSleeve.png', 'AlbumLabel.png', 'AlbumPosterMockup.png'],
+		'Record album cover design. Included in the record is a poster insert that can turn into a virtual reality experience (see the Animations project). I shot and edited all the photos used. First class project that we actually got to print out and see the vision realized. Designed in Adobe Illustrator & Adobe Photoshop.'
+	]),
+	new ImageDataObj ([
+		['StampMockup.png', 'Stamp.png', 'Stamp-repeated.png'],
+		'Postal stamp design featuring Stevie Wonder. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
+		['FlashAlarm-home.png',],
+		'Concept for an alarm app. Complete with a <a href="img/portfolio/FlashAlarm-Presentation.pdf">presentation</a> explaining the concept & a <a href="img/portfolio/FlashAlarm-demo.mov">demonstration</a>. Designed in Adobe Illustrator & Adobe XD.'
 	]),
 	new ImageDataObj ([
 		['StudyabroadTV.png', 'StudyabroadPoster.png'],
 		'Promotional posters for a study abroad trip, for both print and tv. Designed in Adobe Indesign.'
+	]),
+	new ImageDataObj ([
+		['editorial-design1.jpg', 'editorial-design2.jpg'],
+		'An editorial for AR glasses I designed for class. I also took and edited all the pictures. Designed in Adobe Indesign.'
 	]),
 	new ImageDataObj ([
 		['RV-outside.JPG', 'RVoutside-final.png'],
@@ -96,6 +108,10 @@ var logos = [
 		'Logo for my graphic design work, including the moodboard and different iterations it went through throughout the process. Designed in Adobe Illustrator.'
 	]),
 	new ImageDataObj ([
+		['AASlogo.png', 'AASLogos-options.png'],
+		'Logo for a book about internships from a networking company, along with logo options the CEO had requested. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['peakproperties.png'],
 		'Logo for a real estate company in Colorado Springs. Designed in Adobe Illustrator.'
 	]),
@@ -146,6 +162,11 @@ var animations = [
 		['bump.mp4', 'mortise.mp4', 'snipe.mp4'],
 		'TV branding examples for school project: a bump, mortise, & snipe. Animated in Adobe After Effects.',
 		'bump.png'
+	]),
+	new VideoDataObj ([
+		['albumanimation.mp4'],
+		'Animation made for a virtual reality experience when you scan a code on a poster; someone can hold the phone up to the poster and watch it become animated. Made in Procreate & Adobe Illustrator. Animated in Adobe After Effects.',
+		'AlbumPoster.png'
 	]),
 	new VideoDataObj ([
 		[],
