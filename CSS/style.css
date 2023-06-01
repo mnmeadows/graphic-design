@@ -95,6 +95,18 @@ h1 {
 	border: 1px solid #49654E;
 	color: white
 }
+#featured {
+	justify-content: center;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+#featured img {
+	width: 95%;
+	border-radius: 75px;
+	align-content: flex-end;
+	height: 350px;
+	object-fit: cover
+}
 
 #work {
 	display: flex;
@@ -367,7 +379,7 @@ p {
 	}
 	#desktopmedia li {
 		display: inline;
-		padding: 0 8px
+		padding: 0 3px
 	}
 	#name {
 		justify-content: center;

@@ -12,6 +12,10 @@ function VideoDataObj (options) {
 }
 var products = [
 	new ImageDataObj ([
+		['BoardgameMockup.png', 'BoardgameBox.png', 'BoardgameBoxFlat.png', 'BoardgameCards.png', 'BoardgameInstructions.png', 'BoardgameBoard.png'],
+		'Complete board game design. Took a game from the TV Show "New Girl" and adapted it into a boardgame, designed the board, box, cards, and instructions. Designed in Adobe Illustrator, Adobe Indesign, & Adobe Photoshop.'
+	]),
+	new ImageDataObj ([
 		['AlbumMockup.png', 'AlbumSleeve.png', 'AlbumLabel.png', 'AlbumPosterMockup.png'],
 		'Record album cover design. Included in the record is a poster insert that can turn into a virtual reality experience (see the Animations project). I shot and edited all the photos used. First class project that we actually got to print out and see the vision realized. Designed in Adobe Illustrator & Adobe Photoshop.'
 	]),
