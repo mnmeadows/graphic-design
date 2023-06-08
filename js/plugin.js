@@ -162,6 +162,11 @@ var video = [
 ];
 var animations = [
 	new VideoDataObj ([
+		['CuriousExplodingNumbers.mp4', 'CuriousLetter.mp4', 'CuriousAppendix.mp4'],
+		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/3G3Yi-DSMgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>Projections to be displayed during the play "The Curious Incident of the Dog in the Night Time". Designed and animated in Adobe Photoshop & Adobe After Effects.',
+		'CuriousAppendix.jpg'
+	]),
+	new VideoDataObj ([
 		[],
 		'<iframe width="100%" height="300px" src="https://www.youtube.com/embed/lripbvTSX5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>School project to make a title sequence for a movie. Finishing up some final details. Designed and animated in Adobe Illustrator & Adobe After Effects.',
 		'titlesequence.png'
