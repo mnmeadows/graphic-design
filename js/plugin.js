@@ -16,12 +16,24 @@ var products = [
 		'Complete board game design. Took a game from the TV Show "New Girl" and adapted it into a boardgame, designed the board, box, cards, and instructions. Designed in Adobe Illustrator, Adobe Indesign, & Adobe Photoshop.'
 	]),
 	new ImageDataObj ([
+		['BookSpread.png', 'BookInside.png', 'Book.png',],
+		'Reimagining of a book cover for "Arsene Lupin: Gentleman Thief". Full spread with inside flaps. Went through the whole process of actually printing out and folding to fit the book. Designed in Adobe Indesign & Adobe Photoshop.'
+	]),
+	new ImageDataObj ([
 		['AlbumMockup.png', 'AlbumSleeve.png', 'AlbumLabel.png', 'AlbumPosterMockup.png'],
 		'Record album cover design. Included in the record is a poster insert that can turn into a virtual reality experience (see the Animations project). I shot and edited all the photos used. First class project that we actually got to print out and see the vision realized. Designed in Adobe Illustrator & Adobe Photoshop.'
 	]),
 	new ImageDataObj ([
 		['StampMockup.png', 'Stamp.png', 'Stamp-repeated.png'],
 		'Postal stamp design featuring Stevie Wonder. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
+		['ZineCover.png', 'ZineInside1.png', 'ZineSpread.png', 'ZineSpread2.png', 'ZineSpread3.png', 'ZineSpread4.png', 'ZineSpread5.png', 'ZineSpread6.png', 'ZineSpread7.png', 'ZineSpread8.png', 'ZineSpread9.png',],
+		'Zine spread explaining photography basics, utilizing interesting grid layouts. Designed in Adobe InDesign.'
+	]),
+	new ImageDataObj ([
+		['WorshipAlbumFront.png', 'WorshipAlbumBack.png', 'WorshipAlbum.png', 'WorshipAlbumLabels.png'],
+		'Worship record album cover and label design. Went through whole print process to make the album & photographed mock-ups. Designed in Procreate & Adobe Illustrator.'
 	]),
 	new ImageDataObj ([
 		['FlashAlarm-home.png',],
@@ -67,18 +79,6 @@ var products = [
 		['home-decor.png'],
 		'A decorative sign for a new home. Most of the work was just manipulating and designing the text, but then I redesigned the B to fit well in the space. Designed in Adobe Illustrator.'
 	]),
-	new ImageDataObj ([
-		['font.jpg'],
-		'A bitmap font I made for my typography class. Designed for a checkerboard feel like seen across American diners. Designed in Adobe Illustrator.'
-	]),
-	new ImageDataObj ([
-		['ignited-front.jpg', 'ignited-back.jpg'],
-		'Business cards for a school club. Designed in Adobe Photoshop.'
-	]),
-	new ImageDataObj ([
-		['ascent-postcards.png'],
-		'Postcard design options for a church. Designed with Adobe.'
-	]),
 ];
 var webdesign = [
 	new ImageDataObj ([
@@ -107,6 +107,10 @@ var webdesign = [
 	]),
 ];
 var logos = [
+	new ImageDataObj ([
+		['RileyLogo.png', 'RileySpotify.png', 'RileyConcepts-01.png', 'RileyConcepts-02.png', 'RileyConcepts-03.png', 'RileyConcepts-04.png', 'RileyConcepts-05.png', 'RileyConcepts-06.png', 'RileyConcepts-07.png'],
+		'Logo for a podcast that discusses different aspects of movies with the logo concepts presentation. Designed in Adobe Illustrator & Procreate.'
+	]),
 	new ImageDataObj ([
 		['Meadows-Logo.png', 'Meadows-Brand.png', 'Meadows-moodboard.png', 'Meadows-process.png'],
 		'Logo for my graphic design work, including the moodboard and different iterations it went through throughout the process. Designed in Adobe Illustrator.'
