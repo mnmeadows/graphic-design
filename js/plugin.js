@@ -48,6 +48,10 @@ var products = [
 		'An editorial for AR glasses I designed for class. I also took and edited all the pictures. Designed in Adobe Indesign.'
 	]),
 	new ImageDataObj ([
+		['AASCover.png'],
+		'Designed entire layout, cover, graphics, and logo for a book by Angels Are Networking CEO Charmaine Reaves, to be published this year. Designed in Adobe Indesign & Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['RV-outside.JPG', 'RVoutside-final.png'],
 		'Sticker decal commissioned for the outside of an RV. Designed in Adobe Illustrator.'
 	]),
