@@ -68,6 +68,10 @@ var products = [
 		"A weather app design for my typography class. I wanted it to always have the real view of what was outside, including the moon's phase. Designed in Adobe Illustrator."
 	]),
 	new ImageDataObj ([
+		['GloriaGradMockup.png', 'GloriaGrad.png'],
+		'Party invitation, working on typography manipulation. Designed in Adobe Illustrator.'
+	]),
+	new ImageDataObj ([
 		['ariadacapo(mockup).png'],
 		'Theatre show poster. Ribbons are used throughout the show so I made the font to look like a continuous ribbon. Designed in Adobe Illustrator.'
 	]),
