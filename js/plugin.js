@@ -48,7 +48,7 @@ var products = [
 		'An editorial for AR glasses I designed for class. I also took and edited all the pictures. Designed in Adobe Indesign.'
 	]),
 	new ImageDataObj ([
-		['AASCover.png'],
+		['AASCover.png', 'AAS-1.png', 'AAS-2.png', 'AAS-3.png', 'AAS-4.png', 'AAS-5.png'],
 		'Designed entire layout, cover, graphics, and logo for a book by Angels Are Networking CEO Charmaine Reaves, to be published this year. Designed in Adobe Indesign & Adobe Illustrator.'
 	]),
 	new ImageDataObj ([
